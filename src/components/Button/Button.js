@@ -1,11 +1,7 @@
 import React from "react";
 import "./Button.css";
 
-export interface ButtonProps {
-  label: string;
-}
-
-const Button = (props: ButtonProps) => {
+const Button = (props) => {
   return <button className="bespoke-button">{props.label}</button>;
 };
 

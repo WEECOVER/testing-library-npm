@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage",
+        "corejs": "3.30.0"
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "babel-plugin-macros",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-proposal-optional-chaining"
+  ]
+}
