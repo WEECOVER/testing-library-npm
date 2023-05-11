@@ -3,10 +3,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/weecover"
   },
-  "version": "0.0.5",
+  "version": "0.0.23",
   "description": "A simple template for a custom React component library",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c rollup.config.mjs"
   },
   "author": "Weecover",
   "license": "ISC",
@@ -18,20 +18,29 @@
     "@babel/preset-react": "^7.18.6",
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-image": "^3.0.2",
     "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-replace": "^5.0.2",
+    "@rollup/plugin-terser": "^0.4.1",
     "@rollup/plugin-typescript": "^11.1.0",
     "@types/react": "^18.2.6",
     "node-sass": "^8.0.0",
     "postcss": "^8.4.23",
     "react": "^18.2.0",
     "rollup": "^3.21.6",
+    "rollup-plugin-css-only": "^4.3.0",
     "rollup-plugin-dts": "^5.3.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-postcss-modules": "^2.1.1",
+    "rollup-plugin-size-snapshot": "^0.12.0",
+    "rollup-plugin-styles": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.2",
     "tslib": "^2.5.0",
     "typescript": "^5.0.4"
   },
-  "main": "dist/cjs/index.js",
+  "main": "dist/cjs/index",
+  "typings": "dist/cjs/index",
   "module": "dist/esm/index.js",
   "files": [
     "dist"
