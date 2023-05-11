@@ -7,6 +7,7 @@ import replace from "@rollup/plugin-replace";
 import terser from "@rollup/plugin-terser";
 import { sizeSnapshot } from "rollup-plugin-size-snapshot";
 import postcss from "rollup-plugin-postcss-modules";
+import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import packageJson from "./package.json" assert { type: "json" };
 
 const isProduction = process.env.NODE_ENV === "production";
@@ -36,6 +37,7 @@ const plugins = [
     extensions: [".js", ".jsx", ".ts", ".tsx"],
   }),
   sizeSnapshot(),
+  peerDepsExternal(),
 ];
 
 if (isProduction) {
@@ -51,5 +53,6 @@ export default {
     sourcemap: true,
     assetFileNames: "[name]-[hash][extname]",
   },
+  external: ["core-js"],
   plugins,
 };
