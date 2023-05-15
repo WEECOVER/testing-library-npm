@@ -1,6 +1,6 @@
 import React from "react";
 
-import style from "./styles/button.css";
+import style from "./styles/Button.css";
 import { BUTTON_COLOR_TYPES, BUTTON_STYLE, SIZE } from "./common/enums";
 import { GetIcon } from "./functions/buttonFunctions";
 
