@@ -6,7 +6,9 @@
   "version": "0.0.29",
   "description": "A simple template for a custom React component library",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "author": "Weecover",
   "license": "ISC",
@@ -22,12 +24,23 @@
     "@rollup/plugin-node-resolve": "^15.0.2",
     "@rollup/plugin-replace": "^5.0.2",
     "@rollup/plugin-terser": "^0.4.1",
+    "@storybook/addon-essentials": "^7.0.11",
+    "@storybook/addon-interactions": "^7.0.11",
+    "@storybook/addon-links": "^7.0.11",
+    "@storybook/blocks": "^7.0.11",
+    "@storybook/react": "^7.0.11",
+    "@storybook/react-webpack5": "^7.0.11",
+    "@storybook/testing-library": "0.0.14-next.2",
+    "core-js": "^3.30.2",
     "postcss": "^8.4.23",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^3.21.6",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
-    "rollup-plugin-postcss-modules": "^2.1.1"
+    "rollup-plugin-postcss-modules": "^2.1.1",
+    "storybook": "^7.0.11"
   },
   "peerDependencies": {
     "react": "^18.2.0"
@@ -37,6 +50,5 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.js",
-  "dependencies": {}
+  "types": "dist/index.js"
 }
