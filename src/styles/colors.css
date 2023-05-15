@@ -1,0 +1,58 @@
+:root {
+  --c--white: #fff;
+
+  --c--blue-deep-azure: #01609a; /* hover */
+  --c--blue-whisper: #dfe7ed; /* hover outline background */
+  --c--blue-powder: #b8d1e1; /* hover pie */
+  --c--blue: #016aab; /* default */
+  --c--blue-misty: #cbdce6; /* pie */
+  --c--blue-steel: #5599c3; /* default disable */
+  --c--blue-pale-sky: #d8e3ea; /* pie disable */
+
+  --c--gray-slate: #98999d; /* hover */
+  --c--gray-ivory: #eceded; /* hover outline background */
+  --c--gray-silver: #e0e1e2; /* hover pie */
+  --c--gray: #a5a3ae; /* default */
+  --c--gray-cloud: #e6e6e7; /* pie */
+  --c--gray-steel: #c1c3c5; /* default disable */
+  --c--gray-pear: #eaeaea; /* pie disable */
+
+  --c--green-jade: #24b364; /* hover */
+  --c--green-mint: #e2efe8; /* hover outline background */
+  --c--green-seafoam: #c2e8d3; /* hover pie */
+  --c--green: #28c76f; /* default */
+  --c--green-cream: #d1ebdd; /* pie */
+  --c--green-spring: #6ed69c; /* default disable */
+  --c--green-lavander: #dcede4; /* pie disable */
+
+  --c--red-crimson: #d34c4d; /* hover */
+  --c--red-pale: #f2e6e6; /* hover outline background */
+  --c--red-peach: #f0cccc; /* hover pie */
+  --c--red: #ea5455; /* default */
+  --c--red-blush: #f0d8d9; /* pie */
+  --c--red-salmon: #ec8b8b; /* default disable */
+  --c--red-cotton: #f0e0e1; /* pie disable */
+
+  --c--orange-amber: #e68f3c; /* hover */
+  --c--orange-creamy: #f3ece4; /* hover outline background */
+  --c--orange-peachy: #f5dec8; /* hover pie */
+  --c--orange: #ff9f43; /* default */
+  --c--orange-linen: #f4e4d6; /* pie */
+  --c--orange-apricot: #fabc80; /* default disable */
+  --c--orange-vanilla: #f3e8df; /* pie disable */
+
+  --c--cyan-turquoise: #00bbd1; /* hover */
+  --c--cyan-icy: #dff0f2; /* hover outline background */
+  --c--cyan-powder: #b8eaf0; /* hover pie */
+  --c--cyan: #00cfe8; /* default */
+  --c--cyan-pale: #cbecf0; /* pie */
+  --c--cyan-robin: #54dbeb; /* default disable */
+  --c--cyan-frosted: #d8edf0; /* pie disable */
+
+  --c--darkgray-charcoal: #4b4b4b; /* hover */
+  --c--darkgray-pure: #f2f2f2; /* hover outline background */
+  --c--darkgray-light: #d7d7d7; /* hover pie */
+  --c--darkgray: #4b4b4b; /* default */
+  --c--darkgray-silver: #858585; /* default disable */
+  --c--darkgray-platinum: #e0e0e0; /* pie disable */
+}
